@@ -16,9 +16,6 @@ for i in range(0, line_count):
     for j in range(0, len(set)):
         tries.append(set[j].split(','))
 
-    red_check = False
-    green_check = False
-    blue_check = False
     max_red = 1
     max_green = 1
     max_blue = 1
